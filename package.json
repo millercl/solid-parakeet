@@ -1,0 +1,29 @@
+{
+  "name": "solid-parakeet",
+  "version": "1.0.0",
+  "description": "hsla functional notation represention of the complex plane",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millercl/solid-parakeet.git"
+  },
+  "keywords": [
+    "hsla",
+    "color",
+    "model",
+    "complex",
+    "number",
+    "plane",
+    "riemann",
+    "sphere"
+  ],
+  "author": "Christopher Miller <cmill4ed@mail.umw.edu>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/millercl/solid-parakeet/issues"
+  },
+  "homepage": "https://github.com/millercl/solid-parakeet#readme"
+}
