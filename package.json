@@ -11,14 +11,14 @@
     "url": "git+https://github.com/millercl/solid-parakeet.git"
   },
   "keywords": [
-    "hsla",
-    "color",
-    "model",
-    "complex",
-    "number",
-    "plane",
+    "sphere",
     "riemann",
-    "sphere"
+    "plane",
+    "number",
+    "complex",
+    "model",
+    "color",
+    "hsla"
   ],
   "author": "Christopher Miller <cmill4ed@mail.umw.edu>",
   "license": "CC0-1.0",

@@ -4,12 +4,13 @@
 
 <img align=right alt=hsl src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/HSL_sphere_color_solid.png/320px-HSL_sphere_color_solid.png title=SharkD@wikimedia.org />
 equivalent to the suface depicted as the riemann sphere.
-hue is the imaginary componet. lightness the real. 100% saturation; gray is NaN.
+hue is the argument. lightness the absolute value. 100% saturation; gray is NaN.
 
 ```js
 > solidparakeet( 0, 1 ) // i
 'hsla(90, 100%, 50%, 1)' // "lime"
 ```
+
 ## browser
 ```html
 <script src="solid-parakeet.js"></script>
@@ -26,7 +27,7 @@ npm install --save solid-parakeet
 var solidparakeet = require( 'solid-parakeet' )
 ```
 
-## require.js
+## requirejs
 ```html
 <script src="require.js"></script>
 <script>
