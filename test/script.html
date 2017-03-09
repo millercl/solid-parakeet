@@ -2,12 +2,31 @@
 <html>
   <head>
     <title>script</title>
-    <meta encoding="utf8"/>
+    <meta charset="utf8"/>
     <script src="../solid-parakeet.js"></script>
   </head>
   <body>
     <script>
-      document.body.style.backgroundColor = solidparakeet( 0, 1 )
+      document.body.onload = function () {
+        w = window.innerWidth
+        h = window.innerHeight
+        mw = w / 2
+        mh = h / 2
+      }
+      document.onmousemove = function ( event ) {
+        x = event.clientX
+        y = event.clientY
+        mx = x - mw
+        my = ( y - mh ) * -1
+        console.log( mx, my )
+        document.body.style.backgroundColor = solidparakeet( mx, my )
+      }
+      document.body.onresize = function ( event ) {
+        w = event.target.innerWidth
+        h = event.target.innerHeight
+        mw = w / 2
+        mh = h / 2
+      }
     </script>
   </body>
 </html>
