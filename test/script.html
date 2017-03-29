@@ -18,7 +18,38 @@
         y = event.clientY
         mx = x - mw
         my = ( y - mh ) * -1
-        console.log( mx, my )
+        ew = mw + ( ( w - mw ) / 2 )
+        eh = mh
+        ww = mw - ( ( w - mw ) / 2 )
+        wh = mh
+        nw = mw
+        nh = mh - ( ( h - mh ) / 2 )
+        sw = mw
+        sh = mh + ( ( h - mh ) / 2 )
+        if ( x <= ww ) {
+          mx = -1 * ( ww / x )
+        }
+        if ( x >= ww && x <= mw ) {
+          mx = -1 * ( mw - x ) / ( w / 4 )
+        }
+        if ( x >= mw && x <= ew ) {
+          mx = ( x - mw ) / ( w / 4 )
+        }
+        if ( x >= ew ) {
+          mx = ( w / 4 ) / ( w - x) 
+        }
+        if ( y <= nh ) {
+          my = nh / y
+        }
+        if ( y >= nh && y <= mh ) {
+          my = ( mh - y ) / ( h / 4 )
+        }
+        if ( y >= mh && y <= sh ) {
+          my = -1 * ( y - mh ) / ( h / 4 )
+        }
+        if ( y >= sh ) {
+          my = -1 * ( h / 4 ) / ( h - y )
+        }
         document.body.style.backgroundColor = solidparakeet( mx, my )
       }
       document.body.onresize = function ( event ) {
