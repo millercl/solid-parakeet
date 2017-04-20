@@ -1,6 +1,6 @@
 {
   "name": "solid-parakeet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hsla functional notation represention of the complex plane",
   "main": "solid-parakeet.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/millercl/solid-parakeet#readme",
   "devDependencies": {
-    "requirejs": "^2.3.2"
+    "requirejs": "^2.3.3"
   }
 }
