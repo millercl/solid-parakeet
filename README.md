@@ -1,8 +1,6 @@
-# solid-parakeet - color model for complex numbers
-[![npm](https://img.shields.io/npm/v/solid-parakeet.svg)](https://www.npmjs.com/package/solid-parakeet)
-[![cc0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+# solid-parakeet - color model for complex numbers <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" height="20"/>
 
-![hsl](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/HSL_sphere_color_solid.png/320px-HSL_sphere_color_solid.png "SharkD@wikimedia.org" )
+![logo](drawing.svg)
 
 equivalent to the suface depicted as the riemann sphere.
 hue is the argument. lightness the absolute value. 100% saturation; gray is NaN.
